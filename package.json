@@ -1,0 +1,16 @@
+{
+  "name": "grok-jest-order",
+  "version": "1.0.0",
+  "description": "Grokking the execution order of jest tests and how --runInBand effects that order",
+  "main": "",
+  "scripts": {
+    "test:one": "jest a.test.js",
+    "test:all": "jest",
+    "test:band": "jest --runInBand"
+  },
+  "author": "Daniel Williams",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "24.9.0"
+  }
+}
